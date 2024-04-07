@@ -9,6 +9,7 @@
 ## 1. Papers
 
 - Surveys
+  - 2023 [A General Recipe for Automated Machine Learning in Practice](https://arxiv.org/pdf/2308.15647.pdf)
   - 2023 [AutoML in the Age of Large Language Models: Current Challenges, Future Opportunities and Risks](https://arxiv.org/pdf/2306.08107.pdf)
   - 2023 [Eight years of AutoML categorisation, review and trends](https://link.springer.com/article/10.1007/s10115-023-01935-1)
   - 2023 [AutoML in The Wild: Obstacles, Workarounds, and Expectations](https://www.semanticscholar.org/paper/AutoML-in-The-Wild%3A-Obstacles%2C-Workarounds%2C-and-Sun-Song/f92fd0779f1ef90cc6e07f6ad58c3dd890bf36be)
@@ -38,6 +39,7 @@
 
 
 - AutoFE
+  - 2024 [Automated data processing and feature engineering for deep learning and big data applications: a survey](https://arxiv.org/ftp/arxiv/papers/2403/2403.11395.pdf)
   - 2022 [BigFeat: Scalable and Interpretable Automated Feature Engineering Framework](https://ieeexplore.ieee.org/abstract/document/10020768/)
   - 2022 [DIFER: Differentiable Automated Feature Engineering](https://openreview.net/attachment?id=SrrORxarIgc&name=main_paper_and_supplementary_material)
   - 2022 [OpenFE: Automated Feature Generation with Expert-level Performance](https://arxiv.org/abs/2211.12507)
@@ -53,6 +55,7 @@
 
 
 - HPO
+  - 2023 [On the Hyperparameter Landscapes of Machine Learning Algorithms](https://arxiv.org/pdf/2311.14014.pdf)
   - 2023 [Transfer Learning for Bayesian Optimization: A Survey](https://arxiv.org/pdf/2302.05927.pdf)
   - 2021 [Hyperparameter Optimization: Foundations, Algorithms, Best Practices and Open Challenges](http://arxiv.org/abs/2107.05847v1)
   - 2020 [On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://arxiv.org/pdf/2007.15745v2.pdf)
@@ -77,12 +80,22 @@
 
 
 - AutoML with LLM
+  - 2024 [Large Language Model Agent for Hyper-Parameter Optimization](https://arxiv.org/pdf/2402.01881.pdf)
+  - 2023 [Large Language Model-Enhanced Algorithm Selection: Towards Comprehensive Algorithm Representation](https://arxiv.org/pdf/2311.13184.pdf)
+  - 2023 [AutoML-GPT: Large Language Model for AutoML](https://arxiv.org/pdf/2309.01125.pdf)
   - 2023 [TabLLM: Few-shot Classification of Tabular Data with Large Language Models](https://arxiv.org/pdf/2210.10723.pdf)
   - 2023 [ChatGPT as your Personal Data Scientist](https://arxiv.org/pdf/2305.13657.pdf)
   - 2023 [MLCopilot: Unleashing the Power of Large Language Models in Solving Machine Learning Tasks](https://arxiv.org/pdf/2304.14979.pdf)
   - 2023 [Large Language Models for Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering](https://arxiv.org/pdf/2305.03403.pdf)
   - 2023 [AutoML-GPT: Automatic Machine Learning with GPT](https://arxiv.org/pdf/2305.02499.pdf)
   - 2022 [Can Foundation Models Wrangle Your Data?](https://arxiv.org/pdf/2205.09911.pdf)
+
+
+
+- AutoML for specified task
+  - 2024 [The Potential of AutoML for Recommender Systems](https://arxiv.org/pdf/2402.04453.pdf)
+  - 2024 [Automated Machine Learning for Multi-Label Classification](https://arxiv.org/pdf/2402.18198.pdf)
+  - 2024 [AutoGluon-TimeSeries: AutoML for Probabilistic Time Series Forecasting](https://arxiv.org/pdf/2308.05566.pdf)
 
 
 
@@ -96,20 +109,23 @@
 ## 2. Frameworks
 
 - Open Source
-  - 2013 [AutoWEKA](https://github.com/automl/autoweka)  [[Paper]](https://www.cs.ubc.ca/labs/algorithms/Projects/autoweka/papers/16-599.pdf)
-  - 2014 [Hyperopt-Sklearn](https://github.com/hyperopt/hyperopt-sklearn) [[Paper]](https://conference.scipy.org/proceedings/scipy2014/pdfs/komer.pdf)
-  - 2015 [Auto-Sklearn](https://github.com/automl/auto-sklearn)  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf)
-  - 2016 [TPOT](https://github.com/EpistasisLab/tpot)  [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-31204-0_9)
-  - 2017 [MLBox](https://github.com/AxeldeRomblay/MLBox)
-  - 2018 [Transmogrif AI](https://github.com/salesforce/TransmogrifAI) 
-  - 2018 [ATM](https://github.com/HDI-Project/ATM)  [[Paper]](https://dai.lids.mit.edu/wp-content/uploads/2018/02/atm_IEEE_BIgData-9-1.pdf)
-  - 2019 [NNI](https://github.com/microsoft/nni) 
-  - 2019 [Mljar](https://github.com/mljar/mljar-supervised) 
-  - 2020 [AutoGluon](https://github.com/autogluon/autogluon)  [[Paper]](https://arxiv.org/pdf/2003.06505.pdf)
-  - 2020 [H2O AutoML](https://github.com/h2oai/h2o-3)  [[Paper]](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_61.pdf)
   - 2021 [FLAML](https://github.com/microsoft/FLAML)  [[Paper]](https://proceedings.mlsys.org/paper_files/paper/2021/file/1ccc3bfa05cb37b917068778f3c4523a-Paper.pdf)
   - 2021 [LightAutoML](https://github.com/sberbank-ai-lab/LightAutoML)  [[Paper]](https://arxiv.org/pdf/2109.01528.pdf)
   - 2021 [AutoX](https://github.com/4paradigm/AutoX/)
+  - 2020 [AutoGluon](https://github.com/autogluon/autogluon)  [[Paper]](https://arxiv.org/pdf/2003.06505.pdf)
+  - 2020 [H2O AutoML](https://github.com/h2oai/h2o-3)  [[Paper]](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_61.pdf)
+  - 2019 [NNI](https://github.com/microsoft/nni) 
+  - 2019 [Mljar](https://github.com/mljar/mljar-supervised) 
+  - 2018 [Transmogrif AI](https://github.com/salesforce/TransmogrifAI) 
+  - 2018 [ATM](https://github.com/HDI-Project/ATM)  [[Paper]](https://dai.lids.mit.edu/wp-content/uploads/2018/02/atm_IEEE_BIgData-9-1.pdf)
+  - 2017 [MLBox](https://github.com/AxeldeRomblay/MLBox)
+  - 2016 [TPOT](https://github.com/EpistasisLab/tpot)  [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-31204-0_9)
+  - 2015 [Auto-Sklearn](https://github.com/automl/auto-sklearn)  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf)
+  - 2014 [Hyperopt-Sklearn](https://github.com/hyperopt/hyperopt-sklearn) [[Paper]](https://conference.scipy.org/proceedings/scipy2014/pdfs/komer.pdf)
+  - 2013 [AutoWEKA](https://github.com/automl/autoweka)  [[Paper]](https://www.cs.ubc.ca/labs/algorithms/Projects/autoweka/papers/16-599.pdf)
+
+  
+
   - 2020 [AutoDL](https://github.com/DeepWisdom/AutoDL) automl for deep learning
   - 2019 [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)  [Paper](https://arxiv.org/abs/2006.13799) backend with pytorch
   - 2018 [AdaNet](https://github.com/tensorflow/adanet) backend with tensorflow
